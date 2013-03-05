@@ -1,0 +1,25 @@
+target
+var
+
+# MAC Ignores
+.DS_Store
+
+#Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.project
+.settings
+.classpath
+
+# Maven
+target/
+
+
+# Project Specific Ignores
+apps/hbaseTest/conf
+
+
